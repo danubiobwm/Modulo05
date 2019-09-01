@@ -8,7 +8,7 @@ export const Container = styled.div`
   padding: 30px;
   margin: 80px auto;
   h1 {
-    fort-size: 20px;
+    font-size: 20px;
     display: flex;
     flex-direction: center;
     svg {
