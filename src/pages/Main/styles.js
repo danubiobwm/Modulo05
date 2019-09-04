@@ -13,16 +13,14 @@ export const Form = styled.form`
     font-size: 16px;
   }
 `;
-
 const rotate = keyframes`
 from {
-  transform: rotate(0deg);
+ transform:rotate(0deg);
 }
 to{
-  transform:rotate(360deg);
+transform:rotate(360deg);
 }
 `;
-
 export const SubmitButton = styled.button.attrs(props => ({
   type: 'submit',
   disabled: props.loading,
@@ -49,6 +47,7 @@ export const SubmitButton = styled.button.attrs(props => ({
       }
     `}
 `;
+
 export const List = styled.ul`
   list-style: none;
   margin-top: 30px;
@@ -59,6 +58,7 @@ export const List = styled.ul`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
     & + li {
       border-top: 1px solid #eee;
     }
